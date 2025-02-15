@@ -1,9 +1,8 @@
 // components/TicketBooking/TicketSelection.jsx
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
-import Button from '@/components/ui/Button';
-import Input from '@/components/ui/Input';
-
+import Button from '../ui/Button';
+import Input from '../ui/Input';
 const TicketSelection = ({ ticketData, setTicketData, onNext }) => {
   const handleTicketSelection = (type, price) => {
     setTicketData(prev => ({
