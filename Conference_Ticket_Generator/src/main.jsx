@@ -5,11 +5,6 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Conference_Ticket_Generator">
-    <Routes>
-      <Route path="*" elememt ={<App />}></Route>
-    </Routes>
-    </BrowserRouter>
-    
+    <App />
   </StrictMode>,
 )
